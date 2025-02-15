@@ -22,7 +22,18 @@ a{
     text-align: center;
     font-size: 40px;
   }
-
+/*Tabla*/
+table{
+    width: 500%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-right: 20px;
+    text-align: center;
+}
+td, th{
+    border: 1px solid white;
+    padding: 10px;
+}
 /*Utilities*//*active es para que cuando una pag esté activa cambie el color*/
 .active{
     color: rgb(12, 116, 121);
@@ -74,4 +85,20 @@ margin-right: 30px;
     .my-info p{
         font-size: 22px;
     }
+    /*Main*/
+    .main-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+
+    }  
+    header{
+        width: 60;
+    }  
+    .intereses-flex{
+        display: flex;
+        justify-content: flex-start;
         
+    }
