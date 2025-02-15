@@ -1,0 +1,77 @@
+/*Global*/
+/*quita los espacios de los margenes*/
+*{
+    margin: 0;
+    padding: 0;
+    }
+body{
+    font-family: arial;
+    background-color: #282a36;
+    color:#f8f8f2;
+    padding-left: 25px;
+}
+p{
+    line-height: 2;
+    
+}
+a{
+    color:black;
+    text-decoration: none; 
+  }
+  h2{
+    text-align: center;
+    font-size: 40px;
+  }
+
+/*Utilities*//*active es para que cuando una pag esté activa cambie el color*/
+.active{
+    color: rgb(12, 116, 121);
+    font-weight: bold;
+       }
+    text-primary{
+        color:#f8f8f2;  
+    }
+    .text-secondary{
+        color: rgb(12, 116, 121);
+    }
+    .container{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 2;
+        
+    }
+
+/*Nav*/
+.menu-nav{
+    height: 60px;
+    background-color: #f8f8f2;
+    padding-left: 45px;
+}
+/*Con la siguiente clase del menú de navegación , agregamos espacio entre las palabras(a= los links)*/
+.menu-nav a{
+margin-right: 30px;
+}
+.menu-nav a:hover{/*cambia el color cuando se pasa el mouse*/
+    color: rgb(164, 164, 214);
+}
+
+/*Header*/
+.my-info{
+    padding-top: 30px;
+    text-align: center;
+}    
+.my-info img{
+        display: block; /*te hace la imagen como un bloque, no como una linea*/
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .my-info h1{
+       font-weight: 400;
+       font-size: 42px;   
+    }
+    .my-info p{
+        font-size: 22px;
+    }
+        
