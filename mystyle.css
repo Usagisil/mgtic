@@ -24,15 +24,22 @@ a{
   }
 /*Tabla*/
 table{
-    width: 500%;
+    width: 90%;
     border: 1px solid white;
     border-collapse: collapse;
     margin-right: 20px;
+    /*margin-left: 8%;*/
     text-align: center;
 }
-td, th{
+td {
     border: 1px solid white;
     padding: 10px;
+    text-align: left;
+}
+ th{
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
 }
 /*Utilities*//*active es para que cuando una pag esté activa cambie el color*/
 .active{
@@ -45,13 +52,20 @@ td, th{
     .text-secondary{
         color: rgb(12, 116, 121);
     }
-    .container{
+    .container-about{
         width: 80%;
         margin-left: auto;
         margin-right: auto;
         line-height: 2;
-        
-    }
+                   }
+    .container-list{
+        width: 20%;
+        margin-left: 10%;
+                   }  
+    .container-list-2{
+        width: 100%;
+       
+                    }                           
 
 /*Nav*/
 .menu-nav{
@@ -71,6 +85,7 @@ margin-right: 30px;
 .my-info{
     padding-top: 30px;
     text-align: center;
+    margin-right: 5%;
 }    
 .my-info img{
         display: block; /*te hace la imagen como un bloque, no como una linea*/
@@ -89,16 +104,52 @@ margin-right: 30px;
     .main-flex{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         height: 70vh;
 
     }  
     header{
-        width: 60;
+        width: 40;
     }  
     .intereses-flex{
         display: flex;
         justify-content: flex-start;
         
+    }
+    /*Publicaciones*/
+    .publication-title{
+        color:  rgb(12, 116, 121);
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .publicatios-author{
+        color: white;
+        font-size: 14px;
+     }
+    .publication-link {
+        color:  rgb(12, 116, 121);
+        border: 1px solid rgb(12, 116, 121);
+        border-radius: 3px;
+        padding: 3px;
+        font-size: 12px;
+        margin-right: 5px;
+
+    }
+    .publication-title:hover {
+        text-decoration:underline;
+        cursor:pointer;
+
+    }
+    .publicatios-author:hover {
+        color:  rgb(12, 116, 121);
+        text-decoration:underline;
+        cursor:pointer;
+
+    }
+    .publication-link:hover {
+        background-color:  rgb(12, 116, 121);
+        color:white;
+        cursor:pointer;
+
     }
