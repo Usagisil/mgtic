@@ -72,6 +72,7 @@ td {
     height: 60px;
     background-color: #f8f8f2;
     padding-left: 45px;
+    
 }
 /*Con la siguiente clase del menú de navegación , agregamos espacio entre las palabras(a= los links)*/
 .menu-nav a{
@@ -153,3 +154,14 @@ margin-right: 30px;
         cursor:pointer;
 
     }
+   /*hacer responsivo de forma manual @media(max-width:768px){
+        body{
+            background-color: aqua;
+        }
+        a{
+            display: none;
+        }
+
+
+
+    }*/
